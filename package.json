@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "bun run --hot index.ts",
     "prepare": "effect-language-service patch"
   },
   "devDependencies": {
